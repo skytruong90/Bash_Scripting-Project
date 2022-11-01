@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+echo "Hello and Welcome to a my bash script login"
+echo "Enter the level name"
+read user
+command='ssh $user@bandit.labs.overthewire.org -p 2220
+echo" Thank you so much"
+sleep 2
+eval $command 
